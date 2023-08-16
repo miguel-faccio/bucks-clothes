@@ -1,0 +1,137 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: lazy;
+   src: url(../fonts/lazy_monday_4/Lazy\ Monday.otf);
+}
+body{
+    background-image: url(../image/neon.jpg);
+    background-size: cover; 
+ 
+}
+
+header.principal{
+    display: flex;
+}
+nav{
+    background-color: none!important;
+    width: 500px!important;
+    border-radius: 20px;
+    position: relative;
+    left: 350px;
+    margin-top: 7px;
+}
+input#nav{
+    background-color: #8598c3;
+    border-radius: 15px;
+    border: solid 1px #425fa1;
+    width:300px;
+    height: 38px;
+    margin-top: 3px;
+}
+#offcanvasNavbar{
+    background-image: url(../image/neon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#offcanvasNavbar a{
+    color:rgb(255, 255, 255);
+}
+#offcanvasNavbar h5{
+    
+    color: rgb(164, 194, 251);
+}
+.moonis{
+    font-family: lazy;
+    background-color: #425ea1a5;
+    width: 190px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #283960;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    flex-direction: row;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.moonis h1{
+    color: #99addc;
+    position: relative;
+    top: 3px;
+}
+img.moo{
+    width: 60px;
+    height: 60px;
+    
+}
+.cat{
+    font-family: lazy;
+    background-color: #425ea1a5;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #283960;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top:4px;
+    flex-direction: row;
+    margin-left: 3px;
+    margin-top: 6px;
+}
+.cat h1{
+    color: #616d88;
+    position: relative;
+    top: 3px;
+    font-size: 35px;
+}
+div.icon{
+    background-color: #fff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+div.icon span{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+#textoSobre{
+    height: 100%;
+    width: 80%;
+    background-color: #212529;
+    border: 5px solid rgba(32, 32, 126) ;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px rgb(101, 64, 188);
+    margin-top: 20px;
+
+}
+h1.a{
+    color: #fff;
+}
+#textMAndaVitor{
+    font-size: 28px;
+    color: aliceblue;
+}
+#formaPaySobre{
+    font-size: 40px;
+    color: rgb(145, 36, 208);
+}
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#redeSocialSobre{
+    text-decoration: none;
+}

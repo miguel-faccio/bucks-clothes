@@ -1,0 +1,10 @@
+
+body{
+background-image: url(../image/bglogin.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+
+}

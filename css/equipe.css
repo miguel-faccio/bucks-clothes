@@ -1,0 +1,177 @@
+@font-face{
+    font-family: lazy;
+   src: url(../fonts/lazy_monday_4/Lazy\ Monday.otf);
+}
+
+p{
+    color: aliceblue;
+    font-size: 22px;
+}
+body{
+    background-image: url(../image/fundo.jpg);
+    background-size: cover;
+}
+
+header.principal{
+    display: flex;
+}
+nav{
+    background-color: none!important;
+    width: 500px!important;
+    border-radius: 20px;
+    position: relative;
+    left: 350px;
+    margin-top: 7px;
+}
+input#nav{
+    background-color: #8598c3;
+    border-radius: 15px;
+    border: solid 1px #425fa1;
+    width:300px;
+    height: 38px;
+    margin-top: 3px;
+}
+#offcanvasNavbar{
+    background-image: url(../image/neon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#offcanvasNavbar a{
+    color:rgb(255, 255, 255);
+}
+#offcanvasNavbar h5{
+    
+    color: rgb(164, 194, 251);
+}
+.moonis{
+    font-family: lazy;
+    background-color: #425ea1a5;
+    width: 190px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #283960;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    flex-direction: row;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.moonis h1{
+    color: #283960;
+    position: relative;
+    top: 3px;
+}
+img.moo{
+    width: 60px;
+    height: 60px;
+    
+}
+.cat{
+    font-family: lazy;
+    background-color: #425ea1a5;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #283960;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top:4px;
+    flex-direction: row;
+    margin-left: 3px;
+    margin-top: 6px;
+}
+.cat h1{
+    color: #283960;
+    position: relative;
+    top: 3px;
+    font-size: 35px;
+}
+div.icon{
+    background-color: #fff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+div.icon span{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+#vinifoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+}
+#anafoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#miguelfoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#pietrofoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#anapaolafoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#vitorfoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#kasyfoto{
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+}
+#pedrofoto{
+
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+
+
+
+
+}
+#fotosMembros{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+#fileira01{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#fileira02{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
