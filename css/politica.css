@@ -1,0 +1,17 @@
+#textPolitica, #INfoColetada{
+    border: black solid 5px;
+    width: 75%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 50px;
+    box-shadow: whitesmoke 0px 0px 50px;
+}
+#Politica{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+.headerPOly{
+    color: darkslateblue;
+}

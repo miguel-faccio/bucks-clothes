@@ -92,13 +92,13 @@ img.moo{
     top: 3px;
     font-size: 35px;
 }
-div.icon{
+a.icon{
     background-color: #fff;
     border-radius: 100%;
     width: 50px;
     height: 50px;
 }
-div.icon span{
+a.icon span{
     width: 60px;
     height: 60px;
     position: relative;
