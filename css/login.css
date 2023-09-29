@@ -8,3 +8,45 @@ display: flex;
 justify-content: center;
 
 }
+.login-container {
+    background-color: #9a98d9c3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    top: 200px;
+    right: 300px;
+    text-align: center;
+    border-radius: 12px;
+     height: 370px;
+  }
+  .login-container h1 {
+    margin-bottom: 20px;
+   
+  }
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .login-button {
+    background-color:#6750d6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 12px;
+
+  }
+  .login-button:hover {
+    background-color: #6750d6;
+  }
+  .login-button1{
+    background-color: #9f9deac3;
+   border-radius: 12px;
+  }

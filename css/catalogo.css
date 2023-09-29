@@ -1,21 +1,17 @@
 @font-face{
-    font-family: lazy;
-   src: url(../fonts/lazy_monday_4/Lazy\ Monday.otf);
+  font-family: lazy;
+ src: url(../fonts/lazy_monday_4/Lazy\ Monday.otf);
 }
-
-p{
-    color: aliceblue;
-    font-size: 22px;
-}
-body{
-    background-image: url(../image/fundo.jpg);
+  body{
+    background-image:url(../image/bgg_princii.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-header.principal{
+    background-attachment: fixed;
+  }
+  header.catalogo{
     display: flex;
 }
-nav{
+  nav{
     background-color: none!important;
     width: 500px!important;
     border-radius: 20px;
@@ -70,7 +66,7 @@ img.moo{
 }
 .cat{
     font-family: lazy;
-    background-color: #425ea1a5;
+    background-color: #ffffffa5;
     width: 350px;
     height: 50px;
     text-align: center;
@@ -92,10 +88,12 @@ img.moo{
     font-size: 35px;
 }
 div.icon{
-    background-color: #fff;
+    background-color: #425ea1a5;
     border-radius: 100%;
     width: 50px;
     height: 50px;
+    position: relative;
+    right: 5px;
 }
 div.icon span{
     width: 60px;
@@ -105,73 +103,62 @@ div.icon span{
     right: 5px;
 }
 
-#vinifoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 200px;
-    width: 200px;
-}
-#anafoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#miguelfoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#pietrofoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#anapaolafoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#vitorfoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#kasyfoto{
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-}
-#pedrofoto{
+  .con{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: -20px 10px 20px #2f2b98bb;
+    background-image: url(../image/banner_3.0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bi{
+    color:rgb(75, 9, 141);
+    font-size: 32px;
+    -webkit-text-stroke: 0.2px black;
+  }
 
-    border-radius: 100%;
-    border: 3px solid rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
-
-
-
-
-}
-#fotosMembros{
-    justify-content: center;
-    align-items: center;
+  section{
     display: flex;
-    flex-direction: row;
-    padding: 5px;
-}
-#fileira01{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-#fileira02{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
+    justify-content: space-around;
+    margin-top: 55px;
+    width: 100%;
+  }
+  #logBtn{
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+  }
+  .card{
+    background: linear-gradient(90deg,  rgb(28, 28, 28)0%, rgb(39, 37, 40) 35%,  rgb(45, 49, 51) 100%);
+    width: 265px !important;
+    margin-left: 2px;
+    transition: .35s;
+    cursor: pointer;
+  }
+  .row:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+  }
+  .card:hover{
+    .btn{
+      display: block !important;
+    }
+  }
+  .card-title{
+    color:white  !important;
+  }
+  .card-body .btn{
+    background-color: rgb(99, 122, 161) !important;
+    border: none !important;
+    width: 100%;
+    display: none !important;
+  }
+  .card p{
+    color: rgb(93, 18, 158) ;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    margin-top: 120px;
+  }
