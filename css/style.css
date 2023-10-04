@@ -7,6 +7,10 @@
     font-family: lazy;
    src: url(../fonts/lazy_monday_4/Lazy\ Monday.otf);
 }
+@font-face{
+    font-family: game;
+    src: url(../fonts/gamejot/Gamejot.ttf);
+}
 body{
     background-image: url(../image/bgg_princii.jpg);
     background-repeat: no-repeat;
@@ -116,6 +120,7 @@ section.extra{
     min-width: 900px;
     height: 650px;
     display: flex;
+    flex-direction: column;
 }
 div.promo1{
     background-color: #252f47;
@@ -174,4 +179,7 @@ div.skins img{
     border-radius: 20px!important;
     width: 160px!important;
 }
-
+.carousel-item img{
+    width: 700px;
+    height: 500px;
+}

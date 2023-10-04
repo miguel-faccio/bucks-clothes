@@ -1,4 +1,7 @@
-
+@font-face{
+  font-family: game;
+  src: url(../fonts/gamejot/Gamejot.ttf);
+}
 body{
 background-image: url(../image/loginBG.jpg);
 background-repeat: no-repeat;
@@ -11,26 +14,30 @@ justify-content: center;
 .login-container {
     background-color: #9a98d9c3;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: #8480ff -8px 6px 6px;
     padding: 20px;
-    width: 300px;
+    width: 400px;
     position: relative;
-    top: 200px;
-    right: 300px;
+    top: 230px;
+    right: 360px;
     text-align: center;
     border-radius: 12px;
      height: 370px;
   }
   .login-container h1 {
     margin-bottom: 20px;
+    font-family: game;
+    color: #5a4d9b;
+    text-shadow: #8480ff -7px 5px 6px;
+}
    
-  }
+  
   .login-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 9px;
   }
   .login-button {
     background-color:#6750d6;
@@ -44,9 +51,10 @@ justify-content: center;
 
   }
   .login-button:hover {
-    background-color: #6750d6;
+    background-color: #99c7ea;
   }
   .login-button1{
     background-color: #9f9deac3;
-   border-radius: 12px;
+   border-radius: 3px;
+   width: 267px;
   }

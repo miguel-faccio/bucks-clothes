@@ -128,15 +128,24 @@ div.icon span{
     width: 100%;
   }
   #logBtn{
-    background-color: rgba(250, 235, 215, 0);
+    background-color: rgba(146, 101, 42, 0);
     border: none;
   }
   .card{
-    background: linear-gradient(90deg,  rgb(28, 28, 28)0%, rgb(39, 37, 40) 35%,  rgb(45, 49, 51) 100%);
+    
+    background: linear-gradient(90deg,  rgba(110, 56, 236, 0.632)1%, rgba(170, 90, 207, 0.692) 35%,  rgba(199, 67, 208, 0.477) 100%, rgba(110, 56, 236, 0.632)10%);
     width: 265px !important;
     margin-left: 2px;
     transition: .35s;
     cursor: pointer;
+    width: 18px;
+
+  }
+  .card img{
+    border: 2px solid #425ea1a5;
+    width: 254px;
+    position: relative;
+    right: 4px;
   }
   .row:hover > :not(:hover){
     opacity: .4;
@@ -151,7 +160,7 @@ div.icon span{
     color:white  !important;
   }
   .card-body .btn{
-    background-color: rgb(99, 122, 161) !important;
+    background-color:  rgba(185, 159, 217, 0.477);
     border: none !important;
     width: 100%;
     display: none !important;
